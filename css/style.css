@@ -327,6 +327,7 @@ footer .bottom-footer{
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    border-bottom: 1px solid #bbb;
 }
 footer .bottom-footer .logo{
     margin-right: 50px;
@@ -343,7 +344,4 @@ footer .copyright{
     display: flex;
     text-align: center;
     justify-content: center;
-}
-footer .copyright p{
-    border-top: 1px solid #bbb;
 }
