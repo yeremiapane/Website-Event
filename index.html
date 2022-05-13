@@ -5,99 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            font-family: 'Poppins';
 
-        }
-        body{
-            height: 200vh;
-        }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        /* MENU */
-        .menu{
-            height: 100vh;
-            top: 0;
-            display: flex;
-        }
-        .menu .left{
-            width: 50%;
-            height: 100%;
-            color: white;
-            background-color: rgb(95, 32, 197);
-        }
-        .menu .left .search{
-            position: relative;
-            width: 70%;
-            display: flex;
-            justify-content: space-between;
-            padding: 5px;
-            top: -15%;
-            background: white;
-            border-radius: 5px;
-        }
-        .menu .left .search input{
-            width: 68%;
-            height: 40px;
-            border: none;
-            font-size: 15px;
-        }
-        .menu .left .search button{
-            height: 40px;
-            width: 30%;
-            border: none;
-            font-size: 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: rgb(238, 167, 34);
-        }
-        .menu .left .search button:hover{
-            color: #fff;
-        }
-        .menu .left div{
-            margin: 20% 20% 10% 10%;
-        }
-        .menu .right{
-            width: 50%;
-            height: 100%;
-            position: relative;
-        }
-        .menu .right .img-right{
-            position: absolute;
-            left: -15%;
-            top: 20%;
-            height: 400px;
-            width:100%;
-            border-radius: 35% 10px 10px 10px;
-            background-image: url('img/img-home.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        .menu .right .navleft{
-            width: 90%;
-            margin: 0 5%;
-            height: 70px;
-            padding: 30px;
-            display: flex;
-            justify-content: space-between;
-        }
-        .menu .right .navleft a{
-            text-decoration: none;
-            color: black;
-            transition: 0.5s;
-            
-        }
-        .menu .right .navleft a:hover{
-            color: rgb(241, 129, 0);
-        }
-
-
-        /* Populer */
-    </style>
-</head>
 <body>
     
     <div class="menu">
@@ -136,18 +49,424 @@
         </div>
 
     </div>
-    <div class="poluler">
+    <div class="populer">
         <div class="head-populer">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <h2>Event Terpopuler</h2>
         </div>
-        <div class="list-box-populer">
-            <div class="box-populer">
-                <img></img>
-                aku bikin di vscod offline aja , nanti ku copy kesini wkwk            
+        <div class="list-box-populer owl-carousel owl-theme" >
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-populer item">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                stagePadding: 0,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    800: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    },
+                    1200: {
+                        items: 5
+                    }
+                }
+            })
+        </script>
+
+    </div>
+    <div class="filter">
+        <div class="head-filter">
+            <h2>Filter Sesuai Kategori</h2>
+            <button id="button-filter">Filter</button>
+        </div>
+        <div class="select-filter" id="select-filter">
+            <input type="checkbox" name="" id="IT">
+            <label for="#IT">IT</label>
+            <br>
+            <input type="checkbox" name="" id="MATEMATIKA">
+            <label for="#MATEMATIKA">MATEMATIKA</label>
+            <br>
+            <input type="checkbox" name="" id="SAINS">
+            <label for="#SAINS">SAINS</label>
+            <br>
+            <input type="checkbox" name="" id="OLAHRAGA">
+            <label for="#OLAHRAGA">OLAHRAGA</label>
+            <br>
+            <button>Filter</button>
+        </div>
+        <div class="list-box-filter">
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
+            </div>
+            <div class="box-filter">
+                <img src="img/img-home.jpg" alt="">
+                <div>
+                    <p class="waktu">12 Mei 2022</p>
+                    <p class="dilihat">9839 <i>icon</i></p>
+                </div>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                <br>
+                <a href="">Read More</a>
             </div>
         </div>
     </div>
+    <div class="tags">
+        <div class="head-tags">
+            <h2>Kumpulan Tag</h2>
+        </div>
+        <div class="list-tags">
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+            <div class="box-tags">
+                <i>icon</i>
+                <br><br>
+                <a href=""><h3>#TEKNOLOGI</h3></a>
+            </div>
+        </div>
+    </div>
+    <div class="testimoni">
+        <div class="head-testimoni">
+            <h2>Pendapat Mereka Tentang Kami</h2>
+        </div>
+        <div class="list-testimoni" >
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+            <div class="box-testimoni">
+                <img src="img/img-home.jpg" alt="">
+                <div class="head">
+                    <section>
+                        <h3>Nama</h3>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <h4>Sebagai</h4>
+                        <i>icon</i>
+                    </section>
+                    <br>
+                    <section>
+                        <i>icon</i>
+                        <hr style="height: 10px; width: 80%; border-top: none; border-left: none; border-right: none;">
+                    </section>
+                    <br>
+                </div>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et possimus iure quos quas perspiciatis quasi temporibus amet cum ut exercitationem, aspernatur illo accusamus atque sed quod itaque? Eius, vitae."</p>
+            </div>
+        </div>
+    </div>
+    
 
     <!--  -->
 </body>
+    <script>
+    let buttonFilter = document.getElementById('button-filter');
+    let selectFilter = document.getElementById('select-filter');
+
+    buttonFilter.addEventListener('click',function(){
+        selectFilter.classList.toggle('select-filter-in');
+    });
+</script>
 </html>
