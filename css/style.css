@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+body{
+    height: 200vh;
+}
+
+/* MENU */
+.menu{
+    height: 100vh;
+    top: 0;
+    display: flex;
+}
+.menu .left{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: rgb(95, 32, 197);
+}
+.menu .left .search{
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    top: -15%;
+    background: white;
+    border-radius: 5px;
+}
+.menu .left .search input{
+    width: 68%;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+.menu .left .search button{
+    height: 40px;
+    width: 30%;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(238, 167, 34);
+}
+.menu .left .search button:hover{
+    color: #fff;
+}
+.menu .left div{
+    margin: 20% 20% 10% 10%;
+}
+.menu .right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.menu .right .img-right{
+    position: absolute;
+    left: -15%;
+    top: 20%;
+    height: 400px;
+    width:100%;
+    border-radius: 35% 10px 10px 10px;
+    background-image: url('img/img-home.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.menu .right .navleft{
+    width: 90%;
+    margin: 0 5%;
+    height: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .right .navleft a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    
+}
+.menu .right .navleft a:hover{
+    color: rgb(241, 129, 0);
+}
+
+
+/* Populer */
+.populer{
+    width: 100%;
+    padding: 50px;
+    /* background: linear-gradient(to left top,white, white, rgba(89, 5, 245, 0.397)); */
+}
+.populer .list-box-populer{
+    margin-top: 10vh;
+    width: 100%;
+    text-align: center;
+}
+.populer .list-box-populer .box-populer{
+    width: 100%;
+    margin: 30px 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 4px 2px 20px #eee;
+
+}
+.populer .list-box-populer .box-populer img{
+    width: 90%;
+    position: relative;
+    border-radius: 10% 5px 5px 5px;
+    left: 5%;
+    top: -20px;
+}
+.populer .list-box-populer .box-populer div{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+}
+.populer .list-box-populer .box-populer a{
+    width: 100%;
+    text-align: end;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Filter */
+.filter{
+    width: 100%;
+    padding: 50px;
+}
+.filter .head-filter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.filter .head-filter button{
+    background-color:rgb(136, 136, 231);
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter .select-filter{
+    position: absolute;
+    opacity: 0;
+    z-index: -9;
+    width: 20%;
+    max-height: 0px;
+    background-color: #fff;
+    color: white;
+    padding: 2%;
+    right: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: .5s;
+    color: black;
+    box-shadow: 4px 4px 20px #ddd;
+}
+.filter .select-filter-in{
+    opacity: 1 !important;
+    z-index: 9 !important;
+    max-height: 200px !important;
+}
+.filter .select-filter button{
+    background-color: rgb(118, 118, 255);
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.filter .list-box-filter{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter .list-box-filter .box-filter{
+    width: 20%;
+    margin: 30px 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 4px 2px 20px #eee;
+}
+.filter .list-box-filter .box-filter img{
+    width: 90%;
+    position: relative;
+    border-radius: 10% 5px 5px 5px;
+    left: 5%;
+    top: -20px;
+}
+.filter .list-box-filter .box-filter div{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    
+}
+.filter .list-box-filter .box-filter a{
+    width: 100%;
+    text-align: end;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* TAGS */
+.tags{
+    width: 100%;
+}
+.tags .head-tags{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tags .list-tags{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+}
+.tags .list-tags .box-tags{
+    width:20%;
+    padding: 3%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 20px #ddd;
+    border-radius: 10px;
+    margin: 20px;
+}
+.tags .list-tags .box-tags a{
+    text-decoration: none;
+}
+
+/* TESTIMONI */
+.testimoni{
+    width: 100%;
+    overflow-x: hidden;
+}
+.testimoni .head-testimoni{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.testimoni .list-testimoni{
+    width: 100%;
+    padding: 100px 50px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.testimoni .list-testimoni .box-testimoni{
+    width: 20%;
+    position: relative;
+    padding: 5% 2%;
+    font-size: 10px;
+    background-color: rgba(174, 174, 255, 0.486);
+    border-radius: 0 0 0 20%;
+    margin: 5% 2%;
+}
+.testimoni .list-testimoni .box-testimoni img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    border-radius: 50%;
+}
+.testimoni .list-testimoni .box-testimoni .head{
+    width: 100%;
+    padding: 2%;
+}
+.testimoni .list-testimoni .box-testimoni .head section{
+    display: flex;
+    justify-content: space-between;
+}
