@@ -4,6 +4,9 @@
     font-family: 'Poppins';
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     height: 200vh;
 }
@@ -20,34 +23,7 @@ body{
     color: white;
     background-color: rgb(95, 32, 197);
 }
-.menu .left .search{
-    position: relative;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    top: -15%;
-    background: white;
-    border-radius: 5px;
-}
-.menu .left .search input{
-    width: 68%;
-    height: 40px;
-    border: none;
-    font-size: 15px;
-}
-.menu .left .search button{
-    height: 40px;
-    width: 30%;
-    border: none;
-    font-size: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: rgb(238, 167, 34);
-}
-.menu .left .search button:hover{
-    color: #fff;
-}
+
 .menu .left div{
     margin: 20% 20% 10% 10%;
 }
@@ -60,8 +36,8 @@ body{
     position: absolute;
     left: -15%;
     top: 20%;
-    height: 400px;
-    width:100%;
+    height: 450px;
+    width:115%;
     border-radius: 35% 10px 10px 10px;
     background-image: url('../img/img-home.jpg');
     background-size: cover;
@@ -90,7 +66,14 @@ body{
 .populer{
     width: 100%;
     padding: 50px;
-    /* background: linear-gradient(to left top,white, white, rgba(89, 5, 245, 0.397)); */
+}
+.populer .head-populer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.populer .head-populer h2{
+    border-bottom: 2px solid #ddd;
 }
 .populer .list-box-populer{
     margin-top: 10vh;
@@ -124,10 +107,14 @@ body{
     text-align: end;
     text-decoration: none;
     margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(234, 223, 255);
+    box-shadow: 4px 4px 10px rgb(154, 112, 233);
 }
 
 /* Filter */
-.filter{
+/* .filter{
     width: 100%;
     padding: 50px;
 }
@@ -207,7 +194,7 @@ body{
     text-align: end;
     text-decoration: none;
     margin-top: 10px;
-}
+} */
 
 /* TAGS */
 .tags{
